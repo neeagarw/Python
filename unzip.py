@@ -1,4 +1,4 @@
 import zipfile  
   
-zip = zipfile.ZipFile(r'C:\Users\agarwala\Desktop\Python\Python.zip')  
-zip.extractall(r'C:\Users\agarwala\Desktop\Python\output') 
+zip = zipfile.ZipFile(r'Python\Python.zip')  
+zip.extractall(r'\Python\output') 
